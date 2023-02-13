@@ -10,7 +10,8 @@ public class Veriables {
         System.out.println(number);
 
         //Declaring and Initializing new variable in one line
-        int age = 75;
+        int age = 75; //if value should not be changed, then use "final"
+        age = 80;
         System.out.println("age = "+ age);
 
 
