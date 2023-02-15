@@ -1,3 +1,5 @@
+package basics;
+
 public class Veriables {
     public static void main(String[] args) {
         //Declaring new variable of type int (integer);
