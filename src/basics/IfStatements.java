@@ -40,6 +40,8 @@ public class IfStatements {
             System.out.println("You have passed the test");
         }
 
+        //ELSE IF
+
         //Print comments about grades:
         // 1-3 -> "Very bad"
         // 4-5 -> "Okey"
