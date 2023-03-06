@@ -22,6 +22,20 @@ public class Loops { //for(samij populjarnij), while, do while - cikli
 
         }
 
+        //WHILE LOOP
+        int i = 1;
+        while(i <= 10){
+            System.out.println("This is while loop" + i);
+            i++;
+        }
+
+        //DO WHILE
+        i = 1;
+        do {
+            System.out.println("This is while loop" + i);
+            i++;
+        }while (i <= 10);
+
 
 
 
