@@ -1,6 +1,6 @@
 package basics;
 
-public class Loops { //for(samij populjarnij), while, do while - cikli
+public class Loops { //for(samij populjarnij), while, do while - cikli ....allow to repeat instructions
     public static void main(String[] args) { //dry principle - dont repeat yourself
 
 

@@ -18,11 +18,11 @@ public class HW8 {
 
         for(int i = 0; i < listOfNumbers.length; i++){
             System.out.println("Please enter grade number: " + (i+1));
-            listOfNumbers[i] = scanner.nextInt();
+            listOfNumbers[i] = scanner.nextFloat();
             sum += listOfNumbers[i];
         }
-        float average = (sum/arraySize);
-        System.out.println("Average grade: " + average); //values average
+        float average = (sum/ listOfNumbers.length);
+        System.out.printf("Average grade: %.2f\n",average); //values average
         System.out.println("There was passed  " + listOfNumbers.length + " values"); //count of grades
 
     }
