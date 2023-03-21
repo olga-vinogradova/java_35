@@ -20,6 +20,10 @@ public class Methods { //class
         String answer2 = greetings(usersName);
         System.out.println(answer2);
 
+        //sum method usage in main method
+        System.out.println(sum(75,12,5));
+
+
 
     }
     //we need to write our methods after the main method
@@ -28,11 +32,13 @@ public class Methods { //class
         System.out.println("You are " + age + " years old");
     }
 
-    public static String greetings(String name){
+    public static String greetings(String name){ //not include void -> thats why we should include return
         String result = "Hi " + name;
         return result;    //method return smt because the word "return" is obligatory
     }
 
-
+    public static int sum (int num1, int num2, int num3){
+        return num1+num2+num3;
+    }
 
 }

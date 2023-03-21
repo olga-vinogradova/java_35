@@ -16,12 +16,13 @@ public class HW12 {
         for (int i = 0; i < name.length()/2; i++) { //divide word into two parts
             firstWordPart = (name.charAt(i)); //check letters in the first part
             secondWordPart = (name.charAt(name.length()-1-i));} //check letters in the second part
-            if (firstWordPart == secondWordPart){
+
+        if (firstWordPart == secondWordPart){
                 System.out.println(name + " is a palindrome");
-            }
-            else {
+             }
+        else {
                 System.out.println(name + " is not a palindrome");
-            }
+             }
         }
     }
 
