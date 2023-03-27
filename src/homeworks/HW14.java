@@ -8,6 +8,6 @@ public class HW14 {
 
     //discount method
     public static float discount (float price, float discount){ //using word "static" because method would be called from this class, from main method
-        return price - price * (discount/100);
+        return price - price * (discount/100); //final price
     }
 }
